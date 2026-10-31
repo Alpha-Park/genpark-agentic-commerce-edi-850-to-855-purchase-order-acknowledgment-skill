@@ -1,0 +1,16 @@
+{
+  "name": "genpark-agentic-commerce-edi-850-to-855-purchase-order-acknowledgment-skill",
+  "version": "1.0.0",
+  "title": "B2B EDI 850 PO to EDI 855 Purchase Order Acknowledgment Skill",
+  "category": "Agentic Commerce (B2B Supply Chain & EDI X12)",
+  "description": "Parses ANSI ASC X12 EDI 850 Purchase Orders, checks inventory ATP (Available-To-Promise), generates compliant EDI 855 Purchase Order Acknowledgments with line-level change codes (AC, IA, IB, IR).",
+  "author": {
+    "name": "GenPark Ecosystem",
+    "url": "https://www.genpark.ai",
+    "linkedin": "https://www.linkedin.com/company/92955550"
+  },
+  "mcp_tools": [
+    "generate_edi_855_acknowledgment"
+  ],
+  "dependencies": []
+}
